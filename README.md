@@ -1,5 +1,6 @@
 # FT8/LoRa
 (pronounced FT8 over LoRa)
+
 Copyright 2026 Leandro Soares Indrusiak (G5LSI)
 
 
@@ -35,8 +36,8 @@ ham application protocol re-homed onto a LoRa PHY.
 ## Hardware
 
 Heltec WiFi LoRa 32 V3: ESP32-S3, SX1262 radio, SSD1306 128×64 OLED.
-Pin map and the proven V3 bring-up sequence are reused verbatim from the
-sniffer (`heltec_display.h`, `ft8_radio.cpp`): `SPI.begin(9,11,10,8)` before
+Pin map and the proven V3 bring-up sequence (`heltec_display.h`, 
+`ft8_radio.cpp`): `SPI.begin(9,11,10,8)` before
 `radio.begin`, `Module(8,14,12,13)`, DIO2 RF switch, TCXO on DIO3 @ 1.8 V,
 boosted RX gain. OLED: Vext on GPIO36 (LOW = on), reset pulse on GPIO21, I²C
 SDA 17 / SCL 18 at 0x3c.
