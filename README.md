@@ -57,7 +57,7 @@ SDA 17 / SCL 18 at 0x3c.
    **`FT8LoRa-XXXX`** (open). Connect and browse to `http://192.168.4.1/`.
    (Optional HTTP Basic auth is **off by default** — see *Security* below.)
 2. Set **callsign** (default `G5LSI`), **grid** (default `IO93`),
-   **frequency** (default 433.074 MHz),
+     **frequency** (default 439.9125 MHz, the UK-coordinated 70cm LoRa channel),
    **spreading factor** (default SF12) and **bandwidth** (default 125 kHz),
    then **Apply**. All boards in a net must share frequency, SF and bandwidth.
 3. The scrolling window shows decoded traffic, WSJT-X style: UTC time, the dB
