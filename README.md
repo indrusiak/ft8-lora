@@ -80,9 +80,9 @@ SDA 17 / SCL 18 at 0x3c.
 
 ---
 
-## The QSO brain (`test/ft8.js`)
+## The FT8 QSO protocol (`test/ft8.js`)
 
-All protocol interpretation lives in pure, testable JavaScript that runs 
+All protocol interpretation lives in pure JavaScript that runs 
 in the browser and under Node. The firmware itself just moves bytes and 
 renders status — it never parses FT8 semantics. `test/ft8.js` provides 
 field predicates, `rssiToReport`, a message parser, the QSO state 
