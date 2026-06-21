@@ -72,7 +72,7 @@ class Ft8Radio {
   RxCallback on_rx_;
   bool   ready_   = false;
   bool   tx_busy_ = false;
-  float  freq_ = 433.074f, bw_ = 125.0f;
+  float  freq_ = 439.9125f, bw_ = 125.0f;
   uint8_t sf_  = 12;
   int    begin_status_ = -999;
   uint32_t rx_count_ = 0, tx_count_ = 0, err_count_ = 0;

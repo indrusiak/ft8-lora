@@ -42,7 +42,7 @@ HeltecDisplay oled;
 struct Config {
   char    callsign[16] = "G5LSI";
   char    grid[10]     = "IO93";
-  float   freq         = 433.074f;
+  float   freq         = 439.9125f;  // UK-coordinated 70cm low-power LoRa channel (125 kHz max BW)
   float   bw           = 125.0f;
   uint8_t sf           = 12;
 } cfg;

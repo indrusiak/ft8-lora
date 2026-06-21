@@ -81,11 +81,11 @@ class HeltecDisplay {
     if (!ready_) return;
     oled_.clear();
     oled_.setFont(ArialMT_Plain_16);
-    oled_.drawString(0, 0, "FT8/LoRa");
+    oled_.drawString(0, 0, "FT8/LoRa by G5LSI");
     oled_.setFont(ArialMT_Plain_10);
-    oled_.drawString(0, 20, "by G5LSI");
-    oled_.drawString(0, 34, "Board " + board_id);
-    oled_.drawString(0, 48, ssid);
+    oled_.drawString(0, 20, "Board " + board_id);
+    oled_.drawString(0, 34, ssid);
+    oled_.drawString(0, 48, ip);
     oled_.display();
   }
 
