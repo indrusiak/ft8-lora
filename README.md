@@ -12,7 +12,7 @@ SX1262 + SSD1306).
 
 ## What this is (and what it is not)
 
-**Important interpretation.** "FT8 over LoRa" here means the FT8 *application
+"FT8 over LoRa" here means the FT8 *application
 layer* — the message grammar and the QSO state machine — carried as plain ASCII
 text inside ordinary LoRa packets:
 
