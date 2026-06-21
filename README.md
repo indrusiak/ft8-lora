@@ -33,6 +33,12 @@ ham application protocol re-homed onto a LoRa PHY.
 
 ---
 
+[<img src="https://img.youtube.com/vi/3_DpiqInHS8/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/3_DpiqInHS8)
+
+---
+
+
 ## Hardware
 
 Heltec WiFi LoRa 32 V3: ESP32-S3, SX1262 radio, SSD1306 128×64 OLED.
