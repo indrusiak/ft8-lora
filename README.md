@@ -46,7 +46,8 @@ SDA 17 / SCL 18 at 0x3c.
 
 ## Using it
 
-1. Flash (see below), power up. The board starts a Wi-Fi access point
+1. Flash (see below, or download prebuilt binary from `prebuilt_firmware`
+   directory), power up. The board starts a Wi-Fi access point
    **`FT8LoRa-XXXX`** (open). Connect and browse to `http://192.168.4.1/`.
    (Optional HTTP Basic auth is **off by default** — see *Security* below.)
 2. Set **callsign** (default `G5LSI`), **grid** (default `IO93`),
